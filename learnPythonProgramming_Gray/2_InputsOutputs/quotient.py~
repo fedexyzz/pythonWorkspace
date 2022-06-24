@@ -4,4 +4,4 @@ yString = input('Enter a divisor: ')
 x = int(xString)
 y = int(yString)
 
-print('The quotient of '+ xString +' and'+ yString +' is '+ str(x//y) +' with a remainder of '+ str(x%y) +'.')
+print('The quotient of {} and {} is {} with a remainder of {}.'.format(x, y, x//y, x%y))
